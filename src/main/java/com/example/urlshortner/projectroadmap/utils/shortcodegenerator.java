@@ -1,4 +1,4 @@
-package com.example.urlshortner.utils;
+package com.example.urlshortner.projectroadmap.utils;
 
 public class shortcodegenerator {
     
@@ -8,7 +8,7 @@ public class shortcodegenerator {
 
     public shortcodegenerator() {
     }
-    
+
     public static String generateShortcode() {
         StringBuilder shortcode = new StringBuilder(SHORTCODE_LENGTH);
         for (int i = 0; i < SHORTCODE_LENGTH; i++) {
